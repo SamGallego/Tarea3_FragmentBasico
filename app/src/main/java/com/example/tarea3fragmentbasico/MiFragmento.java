@@ -62,7 +62,7 @@ public class MiFragmento extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+        // Infla el layout para este fragmento
         View view = inflater.inflate(R.layout.fragment_mi_fragmento, container, false);
         textFragment = view.findViewById(R.id.textFragment);
 

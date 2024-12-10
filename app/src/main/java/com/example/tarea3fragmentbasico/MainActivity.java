@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         actualizarButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Obtén el texto del EditText
+
                 String texto = editTextText.getText().toString();
 
                 // Crea una nueva instancia del fragmento con el texto como argumento
